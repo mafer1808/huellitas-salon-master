@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cuidados</title>
+    <link rel="stylesheet" href="./css/Cuidados.css">
+    <link rel="icon" href="./Imágenes/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./Swiper.css" />
+</head>
+
+
+
+
+<body class="body">
+    <header class=" header">
+        <nav class="nav">
+            <div class="cotainer flexbox flexbox--header">
+                <a href="">
+                    <img src="" alt="">
+                </a>
+                <ul class="list flexbox gap-2xs">
+                    <li>
+                        <a href="./Página principal.html">Regresar</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <section><!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <article class="articulo">
+                            <div class="container g-layout g-layout--1-1 g-layout--center">
+                                <div>
+                                    <div class="card__body">
+                                        <h1 class="card__title">Tipos de Cuidados para tu <span
+                                                class="color-primary">Mascota</span></h1>
+                                    </div>
+                                    <p class="card__text">
+                                        Aca habrá tipos y metodos de cuidados para tu fiel mascota
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="swiper-slide">COMO CUIDAR A TU PERRO</div>
+                    <div class="swiper-slide">5 RECOMENDACINES BASICAS PARA CUIDAR A TU PERRO</div>
+                    <div class="swiper-slide">ALIMENTACION DE CALIDAD</div>
+                    <div class="swiper-slide">EDUCACION ANIMAL</div>
+                    <div class="swiper-slide">HIGIENE DEL PERRO</div>
+                    <div class="swiper-slide">ASEOS Y ACTIVIDAD FISICA</div>
+                    <div class="swiper-slide">ATENCION Y CUIDADOS VETERINARIOS</div>
+                    ...
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            direction: 'vertical',
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            // And if we need scrollbar
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+        });
+    </script>
+</body>
+
+</html>

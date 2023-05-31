@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Inicio de sesión</title>
+  <link rel="stylesheet" href="./css/Login y registro.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="icon" href="./Imágenes/favicon.ico" type="image/x-icon"/>
+</head>
+
+<body>
+  <div class="background"></div>
+  <div class="container">
+      <div class="content">
+        <h2 class="logo"><i class='bx bxs-dog'></i>Huellitas Salón</h2>
+
+      <div class="text-sci">
+        <h2>Bienvenido!<br><span>A nuestra web de peluquería canina.</span></h2>
+        <p></p>
+        <div class="social-icons">
+          <a href="#"><i class='bx bxl-facebook' ></i></a>
+          <a href="#"><i class='bx bxl-instagram' ></i></a>
+          <a href="#"><i class='bx bxl-twitter' ></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="logreg-box">
+      <div class="form-box login">
+        <form action="Página principal.html">
+          <h2>Inicia sesión</h2>
+
+          <div class="input-box">
+            <span class="icon"><i class='bx bxs-envelope' ></i></span>
+            <input type="email" required>
+            <label>Correo electrónico</label>
+          </div>
+
+          <div class="input-box">
+            <span class="icon"><i class='bx bxs-lock'></i></span>
+            <input type="password" required>
+            <label>Contraseña</label>
+          </div>
+
+          <div class="remember-forgot">
+            <label><input type="checkbox">Recuérdame</label>
+            <a href="#">Olvidé mi contraseña</a>
+          </div>
+      <button type="submit" class="btn">Iniciar sesión</button>
+
+      <div class="login-register">
+        <p>¿No tienes una cuenta? <a href="#" class="register-link">Regístrate</a></p>
+      </div>
+    </form>
+    </div>
+
+    <div class="form-box register">
+      <form action="Login y registro.html">
+        <h2>Regístrate</h2>
+
+        <div class="input-box">
+          <span class="icon"><i class='bx bxs-user'></i></span>
+          <input type="text" required>
+          <label>Nombre</label>
+        </div>
+
+        <div class="input-box">
+          <span class="icon"><i class='bx bxs-envelope' ></i></span>
+          <input type="email" required>
+          <label>Correo electrónico</label>
+        </div>
+
+        <div class="input-box">
+          <span class="icon"><i class='bx bxs-lock'></i></span>
+          <input type="password" required>
+          <label>Contraseña</label>
+        </div>
+
+        <div class="remember-forgot">
+          <label><input type="checkbox">Estoy de acuerdo con los términos y condiciones</label>
+        </div>
+    <button type="submit" class="btn">Regístrate</button>
+
+    <div class="login-register">
+      <p>¿Ya tienes una cuenta? <a href="#" class="login-link">Inicia sesión</a></p>
+    </div>
+  </form>
+  </div>
+  </div>
+
+  <script src="./js/Login y registro.js"></script>
+</body>
+</html>
