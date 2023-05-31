@@ -1,26 +1,43 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Oswald&family=Poppins:ital,wght@0,300;0,400;1,300&family=Ubuntu:ital@1&display=swap');
+
+
 * {
 	box-sizing: border-box;
 }
 
 body {
-	background: #1D1D1F;
-	color: #fff;
+	background: #5e4b23;
+	color: #000000;
 	font-family: 'Montserrat', sans-serif;
 	min-height: 100vh;
 	display: flex;
 	align-items: center;
+	font-family: 'Poppins', sans-serif;
 }
 .body > boton-regresar{
 	text-align: right;
 	padding: 50%;
+	
 
+}.button {
+	text-align: left;
+	padding: 0.25em 1em;
+	background-color: #0e0707;
+	border-radius: 2rem;
+	color: rgb(233, 223, 223);
+	font-size: 1rem;
+	font-weight: 700;
+	text-decoration: solid;
+	margin: 0.25cm;
+    position: absolute;
 }
 
 
 .todo{
 	
 	background-position: 0;
-	background-image: url("../Imágenes/perrohola.jpg");
+	background-image: url("../Imágenes/fondo.jpg");
 
 }.contenedor-img {
 	max-width: 100%;
@@ -58,9 +75,9 @@ body {
 }
 
 .contenido-principal__resumen {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	line-height: 30px;
-	color: #CFCFCF;
+	color: #49451c;
 }
 
 .carousel__contenedor {
@@ -79,7 +96,7 @@ body {
 	line-height: 30px;
 	text-align: center;
 	background: none;
-	color: #fff;
+	color: #0c0606;
 	opacity: 20%;
 }
 
@@ -108,7 +125,7 @@ body {
 	display: block;
 	width: 30px;
 	height: 4px;
-	background: #fff;
+	background: #050303;
 	opacity: .2;
 	border-radius: 0;
 }
